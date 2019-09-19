@@ -1,7 +1,7 @@
 /*-- font-family: 'Satisfy', cursive; --*/
 
 body {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Courgette', cursive;
     background-color: #e2d5ba;
     color: #f9c567;
 } 
@@ -16,11 +16,11 @@ body {
 
 .outer-div-one {
     width: 80%;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
-    border: solid 1px black;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: #141d44;
@@ -28,21 +28,23 @@ body {
 
 .outer-div-two {
     width: 80%;
+    /*--height: 600px;--*/
     margin-left: auto;
     margin-right: auto;
-    border: solid 1px black;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: #f8e3aa;
 }
 
 .inner-div {
-    width: 85%;
+    width: 90%;
+    /*--height: 530px;--*/
     margin-left: auto;
     margin-right: auto;
-    border: solid 1px #f9c567;
+    border: solid 2px #f9c567;
     border-radius: 10px;
     padding: 10px;
 }
@@ -65,4 +67,59 @@ img {
     width: 25%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.img-qr {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #f9c567;
+    border-radius: 10px;
+}
+
+.img-qr-code {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 17px;
+}
+
+.contact-info {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: solid 2px #f9c567;
+}
+
+.offer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 2px #f9c567;
+    text-align: center;
+}
+
+.links {
+    color: #f9c567;
+}
+
+.fa {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.social-logo-border {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #45629d;
 }
